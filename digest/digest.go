@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/pkg/tarsum"
+	"github.com/ekee/docker-io-libs/tarsum"
 )
 
 const (
