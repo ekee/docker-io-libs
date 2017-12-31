@@ -186,8 +186,8 @@ func dmTaskGetDepsFct(task *CDmTask) *Deps {
 		Count:  uint32(Cdeps.count),
 		Filler: uint32(Cdeps.filler),
 	}
-	for _, device := range Cdeps.device {
-		deps.Device = append(deps.Device, (uint64)(device))
+	for _, device := range devices {
+		deps.Device = append(deps.Device, uint64(device))
 	}
 	return deps
 }
