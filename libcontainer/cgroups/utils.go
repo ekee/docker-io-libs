@@ -14,6 +14,7 @@ import (
 	"time"
 
 	"github.com/docker/go-units"
+	"github.com/ekee/docker-io-libs/units"
 )
 
 const (
