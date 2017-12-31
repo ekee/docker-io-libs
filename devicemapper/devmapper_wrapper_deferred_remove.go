@@ -2,7 +2,6 @@
 
 package devicemapper
 
-// #include <libdevmapper.h>
 import "C"
 
 // LibraryDeferredRemovalSupport tells if the feature is enabled in the build
